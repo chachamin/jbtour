@@ -349,3 +349,17 @@ jQuery(document).ready(function($) {
 		500); }); 
 }); 
 
+
+
+// -------------------------- 셔틀버스 시간표 --------------------------
+
+$(function(){
+	$('.tab_con_wrap > div').hide();
+	$('.shuttle_tap_nav a').click(function () {
+	  $('.tab_con_wrap > div').hide().filter(this.hash).fadeIn();
+	  $('.shuttle_tap_nav a').removeClass('focusOn');
+	  $(this).addClass('focusOn');
+	  return false;
+	}).filter(':eq(0)').click();
+	});
+

@@ -240,3 +240,16 @@ ul.img_col04.img_col02 li:nth-child(2){margin-right:0 !important}
 .tour_link_list ul li .title{position:relative;font-size:20px;padding-left:14px;font-weight:bold}
 .tour_link_list ul li .title:before{content:'';position:absolute;top:8px;left:0;width:4px;height:12px;border-radius:5px;background:#c80000 }
 .tour_link_list ul li .cont{padding:14px 0;color:#666}
+
+/*이용안내 셔틀버스 230302*/
+.service_info .line_up3 li {width: calc(100% / 3);padding: 130px 20px 20px 20px;text-align: center;}
+.service_info .line_up3 li:before {left: 50%;transform: translateX(-50%);top: 20px;margin-top: 0;}
+
+.sub_con_box .h3_box {position: relative;}
+.sub_con_box .h3_box p {color: #E24B4B;position: absolute;bottom: 7px;left: 190px;}
+
+.sub_con_box .shuttle_tap_nav {display: flex;}
+.sub_con_box .shuttle_tap_nav li {margin-right: 10px;border-radius: 50px;}
+.sub_con_box .shuttle_tap_nav li a {width: 100%;height: 100%;padding: 5px 20px;border: 1px solid #ddd; background: #efefef; color: rgb(118, 118, 118);border-radius: 50px;}
+.sub_con_box .shuttle_tap_nav li a.focusOn {background-color: #c80000; color: #fff;border: 1px solid #c80000;}
+.sub_con_box .shuttle_tap_nav li a:hover {background-color: #c80000; color: #fff;border: 1px solid #c80000;}
