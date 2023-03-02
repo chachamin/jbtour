@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#calendar {margin:80px auto}
+#calendar .fc-header-title h3{font-weight:bold;font-size:36px;margin-bottom:0px}
+#calendar .fc-header-title h3:after{display:none !important;}
+#calendar .fc-content {overflow-y: visible; max-height: none; border-top: none;margin-top:30px}
+#calendar .fc-grid .fc-day-number{font-size:1em;border-bottom:1px dotted #ddd;width:100%}
+#calendar .fc-widget-header {border: none; font-size: 1rem; background: #292935; color: #fff; padding: 15px; font-weight: normal;border-right:1px solid #444}
+#calendar .fc-widget-header.fc-sun {background: #c80000;}
+#calendar .fc-widget-header.fc-sat{background: #161984;}
+#calendar .fc-sat .fc-day-number{color:#0000c8}
+#calendar .fc-sun .fc-day-number{color:#c80000}
+#calendar .fc-event-hori{text-align:center;line-height:1.2;border-radius:4px;margin:14px 0}
+#calendar .fc-event-hori .fc-event-inner{padding:26px 16px;cursor: pointer;}
+#calendar .fc-widget-content.fc-other-month {background: #f7f7f7;}
+#calendar .fc-day-content{min-height:120px;}
+#calendar .fc-button{border:0;font-size:0;width:50px;height:50px;background:url(../images/sub/ir_sub.png) -1035px -12px no-repeat #f8f8f8;border-radius:50%;border:2px solid transparent}
+#calendar .fc-button.fc-button-prev{background-position:-1039px -13px }
+#calendar .fc-button.fc-button-next{background-position:-1036px -81px }
+
+/*리스트*/
+.bo_list_wrap,.bo_write_wrap,.bo_view_wrap {margin-bottom:100px}
+.bo_list_wrap .search-box{text-align:right}
+.bo_list_wrap .search-box .form-group{display:inline-block;}
+.bo_list_wrap .search-box .control-label,.faqlist-top .control-label{font-size:0;visibility:hidden;}
+.bo_list_table{border-top:2px solid #333;text-align:center;margin:20px 0 50px}
+.bo_list_table th{padding:15px 0;border-bottom:1px solid #333}
+.bo_list_table td{padding:14px 10px;border-bottom:1px solid #ddd;color:#777}
+.bo_list_table td.no{color:#1b65b3;font-weight:700}
+.bo_list_table td.title{text-align:left;color:#000}
+.bo_list_table td.title a:hover{font-weight:bold;text-decoration:underline}
+#gallery-list{margin:30px 0 50px}
+.gallery-list > div{width:100%}
+.gallery-list > div > div{width:24%;float:left;margin-right:1%;margin-bottom:20px}
+.ga-box .figure{overflow:hidden;height:200px}
+.ga-box .figure a:hover {transform:scale(1.1);transition:all .3s ease}
+.ga-box .figure a .img-responsive{width:300px;height:200px}
+.gallery-list .subject{background:#f9f9f9;padding:30px 20px}
+.gallery-list .subject p{margin-bottom:20px;font-size:17px;height:50px;overflow:hidden}
+.gallery-list .subject div{font-size:0.9em}
+.gallery-list .count {display:none}
+/*뷰페이지*/
+.bbsview .title{padding:30px 10px;border-bottom:1px solid #ddd;border-top:2px solid #333;text-align:center;font-size:26px}
+.bbsview .info ul li{padding:16px 10px;border-bottom:1px solid #ddd;color:#777;}
+.bbsview .content{padding:50px 0;min-height:300px;border-bottom:1px solid #ddd;}
+.bbsview .info.admin{padding:20px 0;border-bottom:1px solid #ddd}
+.bo_view_wrap .btn.btn_m,.write_btn_box .btn.btn_m{width:20%;padding:14px 0}
+.bbsview .info.admin div{display:inline-block;}
+/*쓰기페이지*/
+.write_table_wrap{border-top:2px solid #333;margin:20px 0 30px}
+.bo_write_wrap .form_line {border-bottom:1px solid #ddd;padding:8px 0}
+.bo_write_wrap .form_line label.control-label{float:left;display:block;width:16%;padding:10px}
+.bo_write_wrap .form_line div.write_td{float:left;width:80%;}
+.bo_write_wrap .panel-group{display:none}
+.cke_inner{width:100%}
+/*페이징*/
+.paginationbar{margin:0 auto;text-align:center}
+.paginationbar ul li{display:inline-block}
+.paginationbar ul li a{border:1px solid #ddd;width:40px;height:40px;line-height:40px}
+.paginationbar ul li a:hover{background:#f6f6f6}
+.paginationbar ul li.active a{background:#c80000;color:#fff;border-color:transparent}
+.paginationbar ul li.previous a,.paginationbar ul li.next a{border:0;background:#efefef;color:#888;padding:0 14px;width:auto;vertical-align:middle}
+/*자주하는질문*/
+#faq-accordion{border-top:2px solid #333;margin:20px 0 50px}
+.panel-heading{padding:16px 10px;border-bottom:1px solid #ddd}
+.accordion-toggle span{padding:10px; border-radius:4px;padding:4px 20px;background:#edf6ff;color:#1b65b3;margin-right:10px}
+.accordion-toggle em{display:inline-block;position:relative;padding-right:40px}
+.accordion-toggle em:after{content:'';position:absolute;top:0;right:0;margin-left:10px;display:inline-block;width:26px;height:26px;border-radius:50%;background:url('../images/main/ir.png') -538px -115px no-repeat #f44336;vertical-align:middle;transform:scale(.9)}
+.panel-collapse{display:none;height:auto;border-bottom:1px solid #ddd;padding:30px;background:#f9f9f9}
+.bootstrap-datetimepicker-widget,.modal {display:none}
+/*여행후기,자유게시판*/
+.onefield li{display:inline-block}
+
+
+@media (max-width: 1024px){
+
+}
+@media (max-width: 768px){
+.gallery-list > div > div{width:49%;}
+
+}
+@media (max-width: 480px){
+	#calendar .fc-event-hori .fc-event-inner{padding:0}
+	#calendar .fc-day-content{min-height:auto}
+	.hidden-xs{display:none}
+	.m_w30p{width:30% !important}
+	select.m_w30p{width:30% !important;min-width:auto  !important}
+	input.m_w30p{width:26% !important;min-width:auto  !important}
+	.accordion-toggle span{display:table-cell;vertical-align:middle}
+	.accordion-toggle em{display:table-cell;padding-left:14px}
+	.panel-collapse{padding:30px 20px}
+	.panel-collapse .panel-body .inner{padding:0 !important}
+}
+@media (max-width: 320px){
+	#ffield{min-width:auto}
+	#fval{width:134px !important}
+}

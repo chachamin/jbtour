@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@media (max-width: 1024px){
+	#sub_con .inner{padding:0 20px}
+	.sub_con_box{padding:50px 20px !important}
+	.con_box_w50 .con_r{width:100%;padding-right:0}
+	.con_box_w50 .con_l{float:none;margin:10px auto 0;width:100%;}
+	.con_box_w50 .con_l img{width:100%;height:300px}
+	.tour_zone li ul{padding:10px 10px 10px 20px}
+	.tour_zone > li{min-height:450px}
+	.visual_con01{background-size:cover}
+
+	.main_visual .owl-item, .main_visual .owl-item .item {height:700px;}
+}
+@media (max-width: 768px){
+	.scl_x {width: 100%;overflow-x:scroll;margin-bottom:30px}  
+	.scl_x .table01 {width:680px;}
+	.scl_x .notice{display:block} 
+	.table_01.form_table.m_table th,.table_01.form_table.m_table  td{display:block;width:100%;border-width:0 0 1px 0 !important;}
+	.table_01.form_table th{background:#f8f8f8}
+	.m_table .m_t_a_c{text-align:center}
+	.tour_link_list ul li{padding-left:0px}
+	.tour_link_list ul li img{position:unset;margin:0 0 30px}
+	.tour_link_list ul li .title{font-size:16px}
+	.tour_link_list ul li .title:before{height:12px;top:4px}
+
+}
+@media (max-width: 540px){
+	.top_unit .unit_left li{display:none}
+	.top_unit .unit_left li:last-child{display:block}
+
+	.main_visual .owl-item, .main_visual .owl-item .item {height:600px;}
+}
+@media (max-width: 480px){
+	.course_info_wrap ul:before,.course_info_wrap li:after,.map_con_wrap:before,.map_con_wrap .map_con_l ul.navi_info:before,.notice_box.cancel:before,.box_borderbox .ico_mic{display:none}
+
+	#header .top_unit .unit_left li:first-child a{padding-left:10px}
+	#header .top_unit .unit_right .quick_vr{position:absolute;top:64px;right:64px;border-radius:50px;}
+	#header .top_unit .unit_right .quick_vr a{height:32px;line-height:32px}
+	#header #mMenu{top:45px}
+
+	#svisualLayout .titleWrap h2{font-size:30px}
+	#svisualLayout .titleWrap p,.tab_col2 li a,.f20,.course_info_wrap li .title{font-size:14px}
+	#svisualLayout .breadcrumb li{width:45%;}
+	#svisualLayout .breadcrumb li .arrow,.notice_box span.ico_loca,.service_info li:before{transform:scale(0.8)}
+	#svisualLayout .breadcrumb li.snbDepth1{width:10%}
+	#svisualLayout .breadcrumb li.snbDepth1 a{padding: 20px 0}
+	#svisualLayout .breadcrumb .snb_level_2 li,.tour_car_info div,.service_info li,.course_info_wrap li img,.course_info_wrap li .con_box{width:100%}
+	#sub_con h2.t_reddot,#sub_con h3,.service_info .red_big{font-size:20px}
+	#sub_con h4{font-size:17px;padding-left:24px}
+	#sub_con h4:before{top:3px}
+	#sub_con .btn_box .btn{font-size:18px;padding:20px;margin-bottom:10px}
+	.scl_x .table01 {width:480px;}	
+	.table_01 thead th{padding:10px 20px}
+	.table_01 tbody td, .table_01 tbody th{padding:12px}
+	.tab_col4 li{width:50%;margin-left:-1px}
+	.tab_col2 li{width:48%}
+	.notice_box{padding:10px}
+	.page_title{padding:50px 0}
+	.page_title h2{font-size:26px}
+	ul.img_col04 li{width:47.2%; margin-bottom:10px}
+	ul.img_col04.img_col02 li{width:100%}
+	.tour_zone > li{width:100%;min-height: auto;}
+	.tour_zone li p,.shadow_box li p{font-size:16px}
+	.cliff_detail_box {width:100%;padding:20px}
+	.cliff_detail_box img{position:unset;display:block}
+	.station{padding:20px}
+	.station:before,.user_info > li:before{position:unset;display:block;transform:scale(0.6);margin: -20px auto 0;}
+	.shadow_box li{width:50%;margin:-1px -1px;height:260px;padding:20px 0}
+	.tour_course_s ul,.tour_car_info div,.course_info_wrap li,.map_con_wrap .map_con_l ul.navi_info,.notice_box.cancel,.map_con_wrap .map_con_l, .map .map_con_r,.sub_tour_course{padding:20px}
+	.tour_course_s ul li{width:33%}
+	.course_info_wrap li{margin-left:0}
+	.course_info_wrap li .con_box{padding-left:0}
+	.course_info_wrap li .text,.course_info_wrap li .title span.btn{font-size:12px}
+	.course_info_wrap li .title{margin-top:20px}
+	.map_con_wrap .map_con_l, .map .map_con_r,#sub_con .btn_box .btn{width:100%;display:block}
+	.list_style_02 li,.btn_ss{font-size:12px !important}
+	.sub_tour_course .item{width:50%;word-break:break-all}
+	.box_borderbox,.box_borderbox.ico_box {padding:20px}
+	.sitemap > li{padding-left:0px;}
+	.sitemap > li > a{position:relative;font-size:16px;padding-top:20px;width:150px}
+	.sitemap_depth2 {padding-top:0px}
+	.sitemap_depth2 > li {float:none;width:100%;}
+	.sitemap_depth3{background:#f8f8f8;padding:10px}
+	.sitemap_depth3 > li > a{font-size:12px;}
+	.table_01.form_table td input[type="radio"] + label{font-size:12px !important}
+	.scl_x .seat_select_box {width:100%;overflow-x:scroll}
+	.seat_28{width:320px}
+	.seat_ok_td .m_w100p{width:100%}
+	.seat_ok_td .m_t_a_c{text-align:center}
+	.notice_box.ico_box{padding:18px 16px;padding-left:70px}
+	.notice_box span.ico_notice,.notice_box span.ico_loca{left:12px;transform:scale(0.8)}
+	.user_info > li > p.title{text-align:center;margin-top:-10px;padding-bottom:10px}
+	.user_info > li{padding:10px}
+	.tour_link_list{padding:0 20px 0px}
+
+	.main_tour_con p.s_text{padding:0 50px;margin-bottom:30px}
+	#section5 .top_box{height:auto}
+	#section5 .top_box ul li p{font-size:14px;padding-left:0;text-align:center}
+	#section5 .top_box ul li{padding:10px;}
+	#section5 .bus_info_ul{padding-top:0}
+	#section5 .con_left_wrap{height:460px;}
+	#section5 .top_box ul li.shuttle_bus_02 .red_notice{font-size:12px !important;}
+	#section5 .day_off{padding-top:10px;font-size:0.9em}
+	.cs_box{padding:30px 0 0}
+	.cs_box ul{width:100%;margin-bottom:50px}
+	.cs_box ul.cs_info li{height:250px;padding:40px 20px;word-break:break-all}
+	.cs_box .tour_ico_wrap{padding-left:0}
+
+}
+@media (max-width: 375px){
+	#header .top_unit .unit_left a{padding:12px 8px}
+}
+@media (max-width: 320px){
+	#header .top_unit .unit_left a{padding:12px 6px}
+	.main_visual .owl-item, .main_visual .owl-item .item {height:530px;}/*추가*/
+	#section5 .bus_last_add p {top:-16px;}/*추가*/
+}
