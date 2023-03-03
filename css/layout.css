@@ -20,6 +20,10 @@
 	.toppopup_wrap .one_item img{width:94%;height: 84%;padding-top: 2%;}
 }
 
+.toppopup_wrap .pop_item {height:inherit !important;}
+.toppopup_wrap .pop_item img{height:100% !important;}
+.toppopup_wrap .owl-carousel .owl-item img {width: unset !important;margin: 0 auto;}
+
 /* header */
 #header {position:relative;background:#fff;height:120px;border-bottom:1px solid #eee;z-index:148;box-sizing:border-box}
 #header .top_unit {height:41px;border-bottom:1px solid #eee;font-size:15px;}

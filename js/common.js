@@ -1,29 +1,40 @@
 $(document).ready(function(){
 	//상단팝업
+	// var banner_list = $('.toppopup');
+	//       banner_list.owlCarousel({	
+	// 	items: 2,
+	// 	loop: true,
+	// 	nav:true,
+	// 	smartSpeed:700,
+	// 	autoplay: true,
+	// 	autoplayTimeout: 8000,
+	// 	autoplayHoverPause: false,
+	// 	responsive:{
+	//         0:{
+	//             items:1
+	//         },
+	//         768:{
+	//             items:2
+	//         },
+	//         1000:{
+	//             items:2
+	//         },
+	//         1200:{
+	//             items:2
+	//         }
+	//     }
+		
+	// });
 	var banner_list = $('.toppopup');
-	      banner_list.owlCarousel({	
-		items: 2,
+		banner_list.owlCarousel({	
+		items: 1,
 		loop: true,
 		nav:true,
 		smartSpeed:700,
 		autoplay: true,
 		autoplayTimeout: 8000,
 		autoplayHoverPause: false,
-		responsive:{
-	        0:{
-	            items:1
-	        },
-	        768:{
-	            items:2
-	        },
-	        1000:{
-	            items:2
-	        },
-	        1200:{
-	            items:2
-	        }
-	    }
-		
+		// autoWidth:true
 	});
 	//메인비주얼
 	var mainvisual = $('.main_visual');

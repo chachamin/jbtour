@@ -266,10 +266,13 @@ ul.img_col04.img_col02 li:nth-child(2){margin-right:0 !important}
 .sub_con_box .shuttle_board li {border: 1px solid #ddd;width: 32%;padding: 20px;position: relative;text-align: center;}
 
 .sub_con_box .shuttle_board li:before {content: '';position: absolute;left: 50%;top: -10px;transform: translateX(-50%);width: 18px;height: 18px;background: url(../images/ir_sub.png) -11px -20px no-repeat;}
-.sub_con_box .shuttle_board li p {margin-bottom: 20px;}
+/* .sub_con_box .shuttle_board li p {margin-bottom: 20px;} */
 
 #sub_con .sub_con_box .shuttle_board li h4 {padding-left: 0;}
 #sub_con .sub_con_box .shuttle_board li h4:before {display: none;}
+
+.sub_con_box .pr_box {position: relative;}
+.sub_con_box .pr_box .box_round4 {position: absolute; top: 10px; left: 180px;}
 
 /*코스안내 셔틀버스 230302*/
 .sub_tour_course .item.col_7box {width: calc(100% / 7);}
