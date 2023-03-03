@@ -242,6 +242,9 @@ ul.img_col04.img_col02 li:nth-child(2){margin-right:0 !important}
 .tour_link_list ul li .cont{padding:14px 0;color:#666}
 
 /*이용안내 셔틀버스 230302*/
+.tour_course_s ul li.last_point:after {display: none;}
+.tour_course_s ul li.last_point::before {display: none;}
+
 .service_info .line_up3 li {width: calc(100% / 3);padding: 130px 20px 20px 20px;text-align: center;}
 .service_info .line_up3 li:before {left: 50%;transform: translateX(-50%);top: 20px;margin-top: 0;}
 
@@ -259,4 +262,28 @@ ul.img_col04.img_col02 li:nth-child(2){margin-right:0 !important}
 .course_table.ss_total tbody td:nth-child(3) {text-align: center;}
 .sub_con_box .tab_con_wrap .course_table .ct_title {color: #c80000;border-bottom: 1px solid #000;font-size: 22px;}
 
-/* xptmxm */
+.sub_con_box .shuttle_board {display: flex;justify-content: space-between;}
+.sub_con_box .shuttle_board li {border: 1px solid #ddd;width: 32%;padding: 20px;position: relative;text-align: center;}
+
+.sub_con_box .shuttle_board li:before {content: '';position: absolute;left: 50%;top: -10px;transform: translateX(-50%);width: 18px;height: 18px;background: url(../images/ir_sub.png) -11px -20px no-repeat;}
+.sub_con_box .shuttle_board li p {margin-bottom: 20px;}
+
+#sub_con .sub_con_box .shuttle_board li h4 {padding-left: 0;}
+#sub_con .sub_con_box .shuttle_board li h4:before {display: none;}
+
+/*코스안내 셔틀버스 230302*/
+.sub_tour_course .item.col_7box {width: calc(100% / 7);}
+
+/*탑승지안내 230302*/
+.sub_con_box .shuttle_map_nav {display: flex;}
+.sub_con_box .shuttle_map_nav li {margin-right: 10px;border-radius: 50px;}
+.sub_con_box .shuttle_map_nav li a {width: 100%;height: 100%;padding: 5px 20px;border: 1px solid #ddd; background: #efefef; color: rgb(118, 118, 118);border-radius: 50px;}
+.sub_con_box .shuttle_map_nav li a.focusOn {background-color: #c80000; color: #fff;border: 1px solid #c80000;}
+.sub_con_box .shuttle_map_nav li a:hover {background-color: #c80000; color: #fff;border: 1px solid #c80000;}
+
+#smn00.map, #smn01.map, #smn02.map{margin-top: 20px;}
+
+#smn01 .map_con_wrap:before, #smn02 .map_con_wrap:before {display: none;}
+#smn01 .map_con_wrap .map_con_l, #smn02 .map_con_wrap .map_con_l {width: 100%;display: block;}
+#smn01 .navi_info, #smn02 .navi_info {border-bottom: none;margin-bottom:0;display: flex;}
+#smn01 .navi_info li, #smn02 .navi_info li {width: 35%;}

@@ -363,3 +363,15 @@ $(function(){
 	}).filter(':eq(0)').click();
 	});
 
+	// -------------------------- 셔틀버스 탑승지 --------------------------
+
+$(function(){
+	$('.shuttle_map_wrap > div').hide();
+	$('.shuttle_map_nav a').click(function () {
+	  $('.shuttle_map_wrap > div').hide().filter(this.hash).fadeIn();
+	  $('.shuttle_map_nav a').removeClass('focusOn');
+	  $(this).addClass('focusOn');
+	  return false;
+	}).filter(':eq(0)').click();
+	});
+
