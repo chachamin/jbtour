@@ -20,6 +20,7 @@
 	.toppopup_wrap .one_item img{width:94%;height: 84%;padding-top: 2%;}
 }
 
+/* 230303 헤더1개씩 슬라이드 */
 .toppopup_wrap .pop_item {height:inherit !important;}
 .toppopup_wrap .pop_item img{height:100% !important;}
 .toppopup_wrap .owl-carousel .owl-item img {width: unset !important;margin: 0 auto;}
