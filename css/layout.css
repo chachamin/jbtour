@@ -311,11 +311,11 @@
 #section5 .con_left_wrap{background-color:#e4f9f0}
 #section5 .con_left_box p.t_a_r{margin:-14px 0 18px;font-size:14px}
 #section5 .shuttle_bus_info{border:1px solid #afd0bc}
-#section5 .top_box {border-bottom:1px solid #afd0bc;height:86px;}
+#section5 .top_box {border-bottom:1px solid #afd0bc;}
 #section5 .top_box ul {width:100%}
 #section5 .top_box ul li{width:33.3%;float: left;}
 #section5 .top_box ul li.last{float:right}
-#section5 .top_box ul li p{position:relative;padding: 24px 10px 17px 60px;font-size:20px}
+#section5 .top_box ul li p{position:relative;padding: 15px 10px 15px 60px;font-size:20px}
 #section5 .top_box ul li span.text_gray_s{display:block;color:#888;font-size:14px;padding-top: 3px;}
 #section5 .top_box ul li p:before{content:'';position:absolute;top:50%;left:20px;margin-top:-15px;width:30px;height:30px;background:url("../images/ir.png") no-repeat -1107px -22px;}
 #section5 .top_box ul li.shuttle_bus_02{border-left:1px solid #afd0bc;position:relative}
@@ -329,7 +329,7 @@
 #section5 .top_box .suttle_btn:hover,#section5 .top_box .suttle_btn:focus{background:#067292}
 #section5 .day_off{padding-top:20px}
 #section5 .bus_info_ul {padding:30px 30px 10px}
-#section5 .bus_info_ul li p{display:inline-block;width:78px}
+#section5 .bus_info_ul li p{display:inline-block;width:70px}
 #section5 .bus_info_ul li:before{content:'';background:#44ab6c}
 #section5 .bus_info_ul li span.eng{font-weight:700;margin-right:5px}
 #section5 p.add_text{background:#057192;line-height: 1.5em;}
@@ -354,6 +354,7 @@
 .shuttle_slide .owl-controls .owl-nav a{background-color:#000;margin-right:1px;opacity:0.6}
 .shuttle_slide .owl-controls .owl-nav a:hover,.shuttle_slide .owl-controls .owl-nav a:focus{background-color:#44ab6c;opacity:1}
 
+.shuttle_bus_info .boa_point_s {font-size: 14px;color: #c80000;}
 /* section6 */
 .notice_wrap{background:url(../images/notice_bg.jpg) no-repeat;color:#fff;padding:40px 0}
 .notice_wrap h3{position:absolute;top:-10px;left:0;font-size:24px}
