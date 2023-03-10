@@ -282,6 +282,21 @@ a {transition:all .3s ease; -webkit-transition:all .3s ease; -ms-transition:all 
 .bounce3:hover {animation: myMove3 0.8s linear 0s infinite normal;}
 @keyframes myMove3 {    0% { margin-top: 0px; }	50% { margin-top: 7px; }	75% { margin-top: -7px;}    100% { margin-top: 0px; }}
 
+.shake1{animation: loop 1s linear 3s infinite;}
+@keyframes loop{
+    0%{
+    	top: -30px;left:13px;
+    }
+    50%{
+    	top:-30px;
+    	left:20px;
+    }
+    100%{
+        top:-30px;
+        left:13px;    
+    }
+}
+
 @media print {
 	body{-webkit-print-color-adjust: exact;font-size:10pt !important}
 	h2, h3 {page-break-after: avoid;}
